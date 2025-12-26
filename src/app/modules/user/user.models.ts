@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { Error, model, Schema } from 'mongoose';
 import config from '../../config';
 import { Role, USER_ROLE } from './user.constants';

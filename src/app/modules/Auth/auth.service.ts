@@ -2,7 +2,7 @@ import httpStatus from 'http-status';
 import AppError from '../../error/AppError';
 import { TLogin } from './auth.interface';
 import config from '../../config';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { User } from '../user/user.models';
 import { createToken, verifyToken } from '../../utils/tokenManage';
 import { userService } from '../user/user.service';
